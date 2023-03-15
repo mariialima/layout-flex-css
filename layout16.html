@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layoutflexcss</title>
+
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        .D1 {
+            background-color: rgb(106, 31, 237);
+            width: 70%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        .D2 {
+            width: 70%;
+            height: 200px;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .D3 {
+            background-color: yellow;
+            width: 20%;
+            height: 200px
+        }
+
+        .D4 {
+            background-color: yellow;
+            width: 70%;
+            height: 200px
+        }
+
+        .D5 {
+            width: 70%;
+            height: 474px;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .D6 {
+            width: 60%;
+            height: 474px;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .D7 {
+            background-color: yellow;
+            width: 100%;
+            height: 200px
+        }
+
+        .D8 {
+            background-color: yellow;
+            width: 20%;
+            height: 474px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="D1">
+        <div class="D2">
+            <div class="D3"></div>
+            <div class="D3"></div>
+            <div class="D3"></div>
+        </div>
+        <div class="D5">
+            <div class="D6">
+                <div class="D7"></div>
+                <div class="D7"></div>
+            </div>
+            <div class="D8"></div>
+        </div>
+    </div>
+</body>
+
+</html>
